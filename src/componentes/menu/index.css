@@ -1,0 +1,19 @@
+.logo{
+    color: rgb(255, 255, 255) 
+}
+nav ul a.active{
+  font-weight: bold;
+text-decoration: underline;
+}
+
+/* .sidenav li>a{
+    font-weight: bold;
+  text-decoration: underline;
+  }
+   */
+
+@media (max-width: 426px) {
+    .logo{
+        font-size: 23px !important;
+    }
+}

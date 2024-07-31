@@ -1,0 +1,11 @@
+.color{
+    color: #ffffff!important;
+}
+.custom-card {
+    border: 2px solid #01579b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px; 
+   padding-top: 15px;
+   padding-bottom: 18px;
+  }
