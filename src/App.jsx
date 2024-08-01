@@ -4,7 +4,7 @@ import './App.css';
 
 import Home from './pages/Home';
 import Footer from './componentes/footer';
-import Main from './componentes/menu';
+
 import Login from './componentes/login';
 import PQR from './pages/PQR';
 import ListPQR from './componentes/listaPQR';
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <Router>
-    <Main/>
+   
       <Routes>
         <Route path="/" element={<Home  />} />
         <Route path="/login" element={<Login  />} />

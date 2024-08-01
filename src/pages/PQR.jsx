@@ -4,9 +4,11 @@ import 'materialize-css/dist/js/materialize.min.js';
 import FORM_PQR from '../componentes/pqr';
 // import { Link } from 'react-router-dom';
 import ListPQR from '../componentes/listaPQR';
+import Main from '../componentes/menu';
 
 const PQR = () => {
   return (<>
+  <Main/>
       <h5 className="center-align light-blue-text">Atencion de quejas, reclamos, solicitudes y denuncias</h5>
 <FORM_PQR></FORM_PQR>
 <div className="center-align light-blue-text">

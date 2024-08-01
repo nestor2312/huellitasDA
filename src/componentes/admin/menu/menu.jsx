@@ -13,6 +13,7 @@ const MainAdmin = ()=> {
   
                          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons large">dehaze</i></a>
                <ul className="right hide-on-med-and-down">
+               <li><Link to={'/'}>←inicio usuario</Link></li>
                  <li><Link to={'/admin/inicio'}>Inicio</Link></li>
                  <li><Link to={'/admin/denuncias'}>Denuncias</Link></li>
                  <li><Link to={'/admin/donaciones'}>Adopciones</Link></li>
@@ -23,11 +24,11 @@ const MainAdmin = ()=> {
            </nav>
         
            <ul className="sidenav" id="mobile-demo">
-             <li><Link to={'/'}>Inicio</Link></li>
-             <li><Link to={'donaciones'}>Donaciones</Link></li>
-             <li><Link to={'blog'}>Blog</Link></li>
-             <li><Link to={'pqr'}>PQRS</Link></li>
-             <li><Link to={'login'}>Iniciar sesion</Link></li>
+           <li><Link to={'/admin/inicio'}>Inicio</Link></li>
+           <li><Link to={'/admin/inicio'}>Inicio</Link></li>
+                 <li><Link to={'/admin/denuncias'}>Denuncias</Link></li>
+                 <li><Link to={'/admin/donaciones'}>Adopciones</Link></li>
+                 <li><Link to={'/admin/pqr'}>PQRS</Link></li>
            </ul>
     </>
 }

@@ -1,6 +1,8 @@
+import Main from "../menu"
 import "./index.css"
 const Donaciones =()=>{
     return <>
+     <Main/>
     <h1 className=" blue lighten-3 center">tu aporte nos ayudas a salvar más vidas!</h1>
      <div className="row container">
        

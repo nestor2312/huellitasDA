@@ -9,3 +9,9 @@ h1{
     border-radius: 3px;
     width: 500px;
 }
+@media (max-width: 426px) {
+  .images{
+  
+    width: 400px;
+}
+}

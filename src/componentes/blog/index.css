@@ -1,0 +1,18 @@
+@media (max-width: 426px) {
+    .images{
+    
+      width: 400px;
+  }
+  }
+  @media (max-width: 375px) {
+    .images{
+  
+      width: 10px!important;
+  }
+  }
+  @media (max-width: 321px) {
+    .images{
+    
+      width: 300px!important;
+  }
+  }

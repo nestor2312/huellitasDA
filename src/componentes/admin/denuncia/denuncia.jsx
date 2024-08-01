@@ -5,6 +5,7 @@ import "materialize-css/dist/js/materialize.min.js";
 import M from "materialize-css";
 // import "./index.css";
 import axios from "axios";
+import MainAdmin from "../menu/menu";
 
 const endpoint ='http://127.0.0.1:8000/api/pqr';
 
@@ -47,6 +48,7 @@ const Denuncia =()=>{
   
 
     return <>
+    <MainAdmin/>
     <h1 className="blue darken-3">registrar denuncia de mascota</h1>
 <div className="container custom-card">
       <div className="row">
