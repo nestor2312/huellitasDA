@@ -3,7 +3,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const endpoint ='http://127.0.0.1:8000/api';
+// const endpoint ='http://127.0.0.1:8000/api';
+const endpoint ='http://localhost:8000/api';
 
 const ListPQR = () => {
     const [Pqr, setPqr] = useState([]);
